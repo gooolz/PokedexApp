@@ -1,0 +1,55 @@
+    <resources>
+    <string name="app_name">Pokédex</string>
+    <string name="bulbasaurPokemon">Bulbasaur</string>
+    <string name="charmanderPokemon">Charmander</string>
+    <string name="eeveePokemon">Eevee</string>
+    <string name="growlithePokemon">Growlithe</string>
+    <string name="laprasPokemon">Lapras</string>
+    <string name="raichuPokemon">Raichu</string>
+    <string name="slowpokePokemon">Slowpoke</string>
+    <string name="squirtlePokemon">Squirtle</string>
+    <string name="wigglytuffPokemon">Wigglytuff</string>
+
+    <string name="bulbasaurCP">892</string>
+    <string name="charmanderCP">644</string>
+    <string name="eeveeCP">1121</string>
+    <string name="growlitheCP">902</string>
+    <string name="laprasCP">2434</string>
+    <string name="raichuCP">1456</string>
+    <string name="slowpokeCP">726</string>
+    <string name="squirtleCP">789</string>
+    <string name="wigglytuffCP">1893</string>
+
+    <string name="bulbasaurType">Grass/Poison</string>
+    <string name="charmanderType">Fire</string>
+    <string name="eeveeType">Normal</string>
+    <string name="growlitheType">Fire</string>
+    <string name="laprasType">Water/Ice</string>
+    <string name="raichuType">Electric</string>
+    <string name="slowpokeType">Water/Psychic</string>
+    <string name="squirtleType">Water</string>
+    <string name="wigglytuffType">Normal/Fairy</string>
+
+
+    <string name="bulbasaurAttacks">Power Whip, Tackle</string>
+    <string name="charmanderAttacks">Flame Burst, Ember</string>
+    <string name="eeveeAttacks">Quick Attack, Dig</string>
+    <string name="growlitheAttacks">Flamethrower, Ember</string>
+    <string name="laprasAttacks">Dragon Pulse, Ice Shard</string>
+    <string name="raichuAttacks">Thunder Shock</string>
+    <string name="slowpokeAttacks">Water Pulse/Gun</string>
+    <string name="squirtleAttacks">Water Pulse, Bubble</string>
+    <string name="wigglytuffAttacks">Play Rough, Pound</string>
+
+
+    <string name="bulbasaurEvo">Ivysaur, Venusaur</string>
+    <string name="charmanderEvo">Charmeleon, Charzard</string>
+    <string name="eeveeEvo">Flareon, Vaporeon, Jolteon</string>
+    <string name="growlitheEvo">Archanine</string>
+    <string name="laprasEvo">N/A</string>
+    <string name="raichuEvo">N/A</string>
+    <string name="slowpokeEvo">Slowbro</string>
+    <string name="squirtleEvo">Wartortle,Blastoise</string>
+    <string name="wigglytuffEvo">N/A</string>
+
+    </resources>

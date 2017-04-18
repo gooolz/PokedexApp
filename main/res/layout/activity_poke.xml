@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollViewMain"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+         android:orientation="vertical"
+        android:id="@+id/pokeLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="16dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="16dp"
+    android:layout_weight="0"
+        tools:context="com.example.juliafoote.pokedexapphw1.PokeActivity"
+    android:weightSum="1">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="1"
+            android:layout_gravity="center">
+
+            <TextView
+                android:layout_width="38dp"
+                android:text="CP"
+                android:textColor="#004D40"
+                android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                android:id="@+id/pokeCPTextView"
+                android:layout_gravity="top|left"
+                android:layout_height="30dp"
+                android:layout_margin="5dp" />
+
+
+            <EditText
+                android:layout_width="60dp"
+                android:inputType="number"
+                android:text="892"
+                android:textColor="#004D40"
+                android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                android:id="@+id/cpEditText"
+                android:gravity="top|center_vertical|center_horizontal"
+                android:layout_gravity="left"
+                android:layout_height="45dp" />
+
+
+        </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:src="@drawable/bulbasaur"
+            android:id="@+id/pokeImageView"
+            android:layout_width="match_parent"
+            android:layout_height="182dp"
+            android:layout_weight="0.10"
+            android:layout_gravity="center" />
+
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bulbasaurPokemon"
+        android:textColor="#004D40"
+        android:textStyle="bold"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:layout_gravity="center"
+        android:id="@+id/pokeNameTextView" />
+    </LinearLayout>
+
+
+    <LinearLayout
+            android:layout_width="372dp"
+            android:layout_height="67dp"
+            android:orientation="horizontal"
+        android:layout_gravity="center">
+
+
+            <Button
+                android:text="Previous Pokémon"
+                android:textAppearance="@android:style/TextAppearance.Medium"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="55dp"
+                android:background="#80CBC4"
+                android:id="@+id/prevButton"
+                android:layout_width="100dp"
+                android:layout_height="50dp" />
+
+            <Button
+                android:text="Next Pokémon"
+
+                android:textAppearance="@android:style/TextAppearance.Medium"
+                android:layout_marginLeft="60dp"
+                android:background="#80CBC4"
+                android:id="@+id/nextButton"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="5dp" />
+        </LinearLayout>
+
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_weight="0"
+                android:layout_height="match_parent">
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#004D40"/>
+
+                <TextView
+                    android:text="Favorite Rating"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView"
+                    android:textColor="#004D40"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                    android:layout_gravity="center" />
+
+                <RatingBar
+                    android:id="@+id/ratingBarView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:numStars="5"
+                    android:layout_gravity="center" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#004D40"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TYPE"
+                    android:textStyle="bold"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                    android:id="@+id/pokeTypeTextView"
+                    android:textColor="#004D40"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Grass/Poison"
+                    android:textStyle="italic"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                    android:id="@+id/pokeTypeDef"
+                    android:textColor="#004D40"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ATTACKS"
+                    android:textStyle="bold"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                    android:id="@+id/pokeAttacksTextView"
+                    android:textColor="#004D40"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Power Whip, Tackle"
+                    android:textStyle="italic"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                    android:id="@+id/pokeAttackDef"
+                    android:textColor="#004D40"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="EVOLUTIONS"
+                    android:textStyle="bold"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                    android:id="@+id/pokeEvoTextView"
+                    android:textColor="#004D40"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ivysaur, Venusaur"
+                    android:textStyle="italic"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                    android:id="@+id/pokeEvoDef"
+                    android:textColor="#004D40"/>
+
+
+            </LinearLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>
